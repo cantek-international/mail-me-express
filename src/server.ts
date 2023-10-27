@@ -11,7 +11,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: ['https://bzxtfqppaw.us-east-1.awsapprunner.com'],
+  origin: ['https://main.d347f39uty9ufn.amplifyapp.com'],
   methods: ['POST']
 }))
 app.use(compression())
